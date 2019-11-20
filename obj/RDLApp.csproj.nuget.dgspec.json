@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\RDLApp\\RDLApp.csproj": {}
+    "C:\\xampp\\htdocs\\GilsRDLApp\\RDLApp.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\RDLApp\\RDLApp.csproj": {
+    "C:\\xampp\\htdocs\\GilsRDLApp\\RDLApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\RDLApp\\RDLApp.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\GilsRDLApp\\RDLApp.csproj",
         "projectName": "RDLApp",
-        "projectPath": "C:\\xampp\\htdocs\\RDLApp\\RDLApp.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\GilsRDLApp\\RDLApp.csproj",
         "packagesPath": "C:\\Users\\Buildsmart IT\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\RDLApp\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\GilsRDLApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Buildsmart IT\\AppData\\Roaming\\NuGet\\NuGet.Config"

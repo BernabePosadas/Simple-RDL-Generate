@@ -5,7 +5,7 @@
     <DataSource Name="DataSource1">
       <ConnectionProperties>
         <DataProvider>SQL</DataProvider>
-        <ConnectString>data source=BSACCOUNTING-PC\SQLEXPRESS;initial catalog=AdventureWorks2008R2;integrated security=SSPI</ConnectString>
+        <ConnectString>data source=localhost;initial catalog=AdventureWorks;integrated security=SSPI</ConnectString>
         <IntegratedSecurity>true</IntegratedSecurity>
       </ConnectionProperties>
     </DataSource>
@@ -14,7 +14,10 @@
     <DataSet Name="DataSet1">
       <Query>
         <DataSourceName>DataSource1</DataSourceName>
-        <CommandText>SELECT Person.CountryRegion.Name AS CountryName, Person.StateProvince.Name AS StateProvince FROM Person.StateProvince INNER JOIN Person.CountryRegion ON Person.StateProvince.CountryRegionCode = Person.CountryRegion.CountryRegionCode ORDER BY Person.CountryRegion.Name</CommandText>
+        <CommandText>SELECT Person.CountryRegion.Name AS CountryName, Person.StateProvince.Name AS StateProvince 
+               FROM Person.StateProvince
+               INNER JOIN Person.CountryRegion ON Person.StateProvince.CountryRegionCode = Person.CountryRegion.CountryRegionCode 
+               ORDER BY Person.CountryRegion.Name</CommandText>
         <Timeout>30</Timeout>
       </Query>
       <Fields>
@@ -80,7 +83,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>StateProvince</Value>
+                                  <Value>CountryName</Value>
                                   <Style>
                                     <TextDecoration>Underline</TextDecoration>
                                   </Style>
@@ -99,7 +102,6 @@
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="CountryName">
-                          <HideDuplicates>DataSet1</HideDuplicates>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -117,7 +119,6 @@
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="StateProvince">
-                          <HideDuplicates>DataSet1</HideDuplicates>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>

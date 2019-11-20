@@ -453,19 +453,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BSAccounting\\.nuget\\packages\\": {}
+    "C:\\Users\\Buildsmart IT\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BSAccounting\\c-rdl-sample\\csharprdl\\csharprdl.csproj",
-      "projectName": "csharprdl",
-      "projectPath": "C:\\Users\\BSAccounting\\c-rdl-sample\\csharprdl\\csharprdl.csproj",
-      "packagesPath": "C:\\Users\\BSAccounting\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BSAccounting\\c-rdl-sample\\csharprdl\\obj\\",
+      "projectUniqueName": "C:\\xampp\\htdocs\\RDLApp\\RDLApp.csproj",
+      "projectName": "RDLApp",
+      "projectPath": "C:\\xampp\\htdocs\\RDLApp\\RDLApp.csproj",
+      "packagesPath": "C:\\Users\\Buildsmart IT\\.nuget\\packages\\",
+      "outputPath": "C:\\xampp\\htdocs\\RDLApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\BSAccounting\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Buildsmart IT\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -507,7 +507,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

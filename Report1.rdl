@@ -5,7 +5,7 @@
     <DataSource Name="DataSource1">
       <ConnectionProperties>
         <DataProvider>SQL</DataProvider>
-        <ConnectString>data source=BSACCOUNTING-PC\SQLEXPRESS;initial catalog=AdventureWorks2008R2;integrated security=SSPI</ConnectString>
+        <ConnectString>data source=localhost;initial catalog=AdventureWorks;integrated security=SSPI</ConnectString>
         <IntegratedSecurity>true</IntegratedSecurity>
       </ConnectionProperties>
     </DataSource>
